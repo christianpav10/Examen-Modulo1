@@ -27,4 +27,8 @@ public class Name {
         return reverse;
 
     }
+    public String capitalLetters(){
+        return this.word=this.word.toUpperCase();
+
+    }
 }

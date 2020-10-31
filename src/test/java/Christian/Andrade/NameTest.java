@@ -16,4 +16,10 @@ public class NameTest {
         this.name=new Name("LAPIZ");
         assertEquals("ZIPAL",this.name.changeWord());
     }
+    @Test
+    public void  capitalLetters(){
+        this.name=new Name("gato");
+        assertEquals("GATO",this.name.capitalLetters());
+
+    }
 }
