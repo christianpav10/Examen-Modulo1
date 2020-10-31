@@ -18,4 +18,17 @@ public class Name {
         return this.word.length();
 
     }
+    public String changeWord() {
+        String reverse="";
+        for (int number = this.numbersOfCharacter()-1; number >= 0; number--) {
+            reverse=reverse+this.word.charAt(number);
+
+        }
+        return reverse;
+
+    }
+    public String capitalLetters(){
+        return this.word=this.word.toUpperCase();
+
+    }
 }
