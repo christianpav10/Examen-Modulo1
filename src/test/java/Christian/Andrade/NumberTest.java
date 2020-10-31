@@ -19,7 +19,8 @@ private Number number;
     }
     @Test
     public void multiplyNumbers(){
-        this.number=new Number(2,2);
-        assertEquals("4",this.number.multiplyNumbers());
+        this.number=new Number(3,2);
+        assertEquals(6,this.number.multiplyNumbers());
+
     }
 }
