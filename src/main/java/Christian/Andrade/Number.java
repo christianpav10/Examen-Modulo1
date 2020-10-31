@@ -27,4 +27,8 @@ public class Number {
         return this.Number1+this.Number2;
 
     }
+    public int substractNumbers(){
+        return this.Number1-this.Number2;
+
+    }
 }
