@@ -11,4 +11,9 @@ public class NameTest {
         this.name=new Name("Pajaro");
         assertEquals(6,this.name.numbersOfCharacter());
     }
+    @Test
+    public void changeWord(){
+        this.name=new Name("LAPIZ");
+        assertEquals("ZIPAL",this.name.changeWord());
+    }
 }
